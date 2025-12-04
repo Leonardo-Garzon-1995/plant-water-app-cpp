@@ -10,6 +10,7 @@ int main() {
 
     std::cout << "Welcome to the Plant Watering App!" << std::endl;
     std::cout << "----------------------------------" << std::endl;
+    std::cout << std::endl;
 
     int days = get_days_input();
     bool is_succulent = get_is_succulent_input();
