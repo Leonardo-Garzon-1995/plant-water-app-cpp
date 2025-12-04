@@ -17,7 +17,7 @@ std::string needs_water(int days, bool is_succulent) {
 
 int get_days_input() {
     int days;
-    std::cout << "Enter the number of days: ";
+    std::cout << "Number of days since last watering: ";
     std::cin >> days;
     return days;
 }
